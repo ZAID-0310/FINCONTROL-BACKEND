@@ -20,7 +20,7 @@ return new class extends Migration
             
             $table->string('name',100);
             $table->timestamp('created_at')->nullable();
-            $table->timestamp('update_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
         });
     }
 

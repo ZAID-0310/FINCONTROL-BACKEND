@@ -24,7 +24,7 @@ return new class extends Migration
             $table->string('description');
             $table->date('expense_Date');
             $table->timestamp('created_at')->nullable();
-            $table->timestamp('update_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
         });
     }
 
