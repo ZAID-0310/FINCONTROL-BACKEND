@@ -1116,3 +1116,575 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2026-08-23 19:32:02] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 19:41:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 19:59:04] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 20:09:04] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 20:19:04] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 20:29:04] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 20:39:04] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 22:41:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 22:51:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 23:01:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 23:11:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 23:21:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-23 23:31:56] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 04:17:00] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 04:26:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 04:36:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 04:46:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 04:56:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 05:06:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 05:16:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 05:26:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
+[2026-08-24 05:36:59] local.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:75
+Stack trace:
+#0 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(97): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false, '', true, 'php', true)
+#1 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(1115): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(933): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1078): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Container\Container.php(864): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(1058): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 C:\Users\Izaid\Downloads\fincontrol-backend\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(138): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:75
+Stack trace:
+#0 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(97): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), false, '', true, 'php', true)
+#1 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1115): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(933): Illuminate\\Container\\Container->build(Object(Closure))
+#3 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1078): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(864): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1058): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 C:\\Users\\Izaid\\Downloads\\fincontrol-backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(138): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at C:/Users/Izaid/Downloads/fincontrol-backend/vendor/laravel/framework/src/Illuminate/View/Compilers/Compiler.php:75)
+[stacktrace]
+#0 {main}
+"} 
