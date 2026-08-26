@@ -20,12 +20,12 @@ return new class extends Migration
             $table->foreignId('user_id')->nullable()
                                         ->constrained()
                                         ->cascadeOnDelete();
-            $table->foreignId('income_category_id') ->constrained('income_categories');
+            $table->foreignId('income_categories_id') ->constrained('income_categories');
             $table->decimal('amount',10,2);
             $table->string('description');
             $table->date('income_Date');
             $table->timestamp('created_at')->nullable();
-            $table->timestamp('update_at')->nullable();
+            $table->timestamp('updated_at')->nullable();
         });
     }
 

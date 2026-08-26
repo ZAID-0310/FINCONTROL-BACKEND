@@ -11,23 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('budgets', function (Blueprint $table) {
+        Schema::create('expense_categories', function (Blueprint $table) {
             $table->id();
 
             $table->foreignId('user_id')->nullable()
                                         ->constrained()
                                         ->cascadeOnDelete();
-<<<<<<< HEAD
-=======
-
-
->>>>>>> c615ac609b4d1cb2049e925f505382be6af17ae3
-            $table->decimal('amount',10,2);
-            $table->string('description'); 
-            $table->date('start_date');
-            $table->date('end_date');
+            
+            $table->string('name',100);
             $table->timestamp('created_at')->nullable();
-
+            $table->timestamp('updated_at')->nullable();
         });
     }
 
@@ -36,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('budgets');
+        Schema::dropIfExists('expense_categories');
     }
 };

@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Income extends Model
@@ -25,4 +26,10 @@ class Income extends Model
     {
         return $this->belongsTo(IncomeCategory::class,'income_categories_id');
     }
+=======
+
+class Income extends Model
+{
+    
+>>>>>>> c615ac609b4d1cb2049e925f505382be6af17ae3
 }
