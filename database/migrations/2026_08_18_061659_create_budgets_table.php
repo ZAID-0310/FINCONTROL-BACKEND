@@ -17,17 +17,11 @@ return new class extends Migration
             $table->foreignId('user_id')->nullable()
                                         ->constrained()
                                         ->cascadeOnDelete();
-<<<<<<< HEAD
-=======
-
-
->>>>>>> c615ac609b4d1cb2049e925f505382be6af17ae3
             $table->decimal('amount',10,2);
             $table->string('description'); 
             $table->date('start_date');
             $table->date('end_date');
             $table->timestamp('created_at')->nullable();
-
         });
     }
 
