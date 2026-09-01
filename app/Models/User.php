@@ -8,10 +8,18 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens; //<--- para lo token de autenticacion
+
+use App\Models\ExpenseCategory;
+use App\Models\Expense;
+use App\Models\Income;
+use App\Models\Budget;
 
 
 class User extends Authenticatable
 {
+    use HasApiTokens, HasFactory, Notifiable; //<--- para lo token de autenticacion
+
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable;
 

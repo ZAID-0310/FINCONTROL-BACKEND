@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FinColtrol - Backend API  
 
-## Getting Started
+API RESTful para la gestión y control de finanzas personales desarrollada con **Laravel 11** y **Laravel Sanctum** para autenticación basada en tokens.
 
-First, run the development server:
+---
+## tecnologias y dependencias 
+    
+* **Frameword:** laravel 11
+* **Autenticacion:** Laravel Sanctum (Token API)
+* **Base de Datos:** MYSQL / PostgreSQL
+* **Almacenamiento e Imagenes:** Cloudinary & Intervention Image
+* **Herramientas de Prueba:** Postman 
+    
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Istalacion y configuracion Local
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Clonar el repositorio
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+git clone [https://github.com/ZAID-0310/FINCONTROL-BACKEND.git]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Accesso 
 
-## Learn More
+{
+  "email": "test@example.com",
+  "password": "password123"
+}
 
-To learn more about Next.js, take a look at the following resources:
+### 3. Rutas Publicas 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **http://127.0.0.1:8000/api/login** -> Ingresar al login
+* **http://127.0.0.1:8000/api/register** -> Registrar un nuevo usuario
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 4. Rutas Privadas 
 
-## Deploy on Vercel
+* **
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
